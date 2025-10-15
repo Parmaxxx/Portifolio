@@ -1,7 +1,5 @@
 import { Button } from '@/components/ui/button.jsx';
-import { Github, Mail, Download, Linkedin } from 'lucide-react';
-import perfilImg from '../assets/RicPerfil.jpg';
-import cvFile from '../assets/RicardoCV.pdf';
+import {Github, Mail, Download, Linkedin} from 'lucide-react';
 
 const HeroSection = () => {
   const scrollToSection = (sectionId) => {
@@ -18,22 +16,24 @@ const HeroSection = () => {
           <div className="mb-8">
             <div className="w-32 h-32 mx-auto rounded-full border-4 border-primary/20 overflow-hidden">
               <img
-                src={perfilImg}
-                alt="Ricardo Moraes"
-                className="w-full h-full object-cover"
+                  src="/Portifolio/assets/RicPerfil.jpg"
+                  alt="Ricardo Moraes"
+                  className="w-full h-full object-cover"
               />
             </div>
           </div>
 
+
           <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-4">
             Ricardo Moraes de Souza
           </h1>
+
           <h2 className="text-xl md:text-2xl text-primary font-semibold mb-6">
             Desenvolvedor Backend
           </h2>
 
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-            Especialista em desenvolvimento backend com foco em Java, Oracle SQL e JavaScript.
+            Especialista em desenvolvimento backend com foco em Java, Oracle SQL e JavaScript. 
             Apaixonado por criar soluções robustas e escaláveis que impulsionam o sucesso dos negócios.
           </p>
 
@@ -49,25 +49,25 @@ const HeroSection = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button
-              onClick={() => scrollToSection('projects')}
-              size="lg"
-              className="bg-primary hover:bg-primary/90 text-primary-foreground"
+                onClick={() => scrollToSection('projects')}
+                size="lg"
+                className="bg-primary hover:bg-primary/90 text-primary-foreground"
             >
               Ver Projetos
             </Button>
 
             <Button
-              onClick={() => scrollToSection('contact')}
-              variant="outline"
-              size="lg"
+                onClick={() => scrollToSection('contact')}
+                variant="outline"
+                size="lg"
             >
               Entre em Contato
             </Button>
 
             <a
-              href={cvFile}
-              download="Ricardo Moraes de Souza - CV.pdf"
-              className="flex items-center gap-2 bg-primary hover:bg-primary/90 text-primary-foreground px-4 py-2 rounded"
+                href="/src/assets/RicardoCV.pdf"
+                download="Ricardo Moraes de Souza - CV.pdf"
+                className="flex items-center gap-2"
             >
               <Download size={16}/>
               Download CV
@@ -76,20 +76,20 @@ const HeroSection = () => {
 
           <div className="flex justify-center space-x-6 mt-8">
             <a
-              href="https://github.com/Parmaxxx"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-primary transition-colors p-2 rounded-full hover:bg-muted"
+                href="https://github.com/Parmaxxx"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-primary transition-colors p-2 rounded-full hover:bg-muted"
             >
               <Github size={24}/>
             </a>
             <a
-              href="https://www.linkedin.com/in/ricardo-moraes-de-souza-6262b114a"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-primary transition-colors p-2 rounded-full hover:bg-muted"
+                href="https://www.linkedin.com/in/ricardo-moraes-de-souza-6262b114a"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-primary transition-colors p-2 rounded-full hover:bg-muted"
             >
-              <Linkedin size={24}/>
+              <Linkedin className="text-foreground" size={24}/>
             </a>
           </div>
         </div>
