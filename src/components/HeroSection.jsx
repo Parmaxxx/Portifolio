@@ -16,8 +16,8 @@ const HeroSection = () => {
           <div className="mb-8">
             <div className="w-32 h-32 mx-auto rounded-full border-4 border-primary/20 overflow-hidden">
               <img
-                  src="/src/assets/RicPerfil.jpeg"
-                  alt="Seu Nome"
+                  src="../assets/RicPerfil.jpg"
+                  alt="Ricardo Moraes"
                   className="w-full h-full object-cover"
               />
             </div>

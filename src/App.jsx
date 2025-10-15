@@ -22,31 +22,15 @@ function App() {
 
   return (
     <div className="min-h-screen bg-background text-foreground">
-      {/* Header fixo */}
       <Header />
-      
-      {/* Conteúdo principal */}
       <main>
-        {/* Seção Hero */}
         <HeroSection />
-        
-        {/* Seção Sobre */}
         <AboutSection />
-        
-        {/* Seção Experiência */}
         <ExperienceSection />
-        
-        {/* Seção Habilidades */}
         <SkillsSection />
-        
-        {/* Seção Projetos */}
         <ProjectsSection />
-        
-        {/* Seção Contato */}
         <ContactSection />
       </main>
-      
-      {/* Rodapé */}
       <Footer />
     </div>
   );
