@@ -202,7 +202,7 @@ const ProjectsSection = () => {
       githubLink: "https://github.com/Parmaxxx/Curriculo-Facil/tree/main/Curriculo%20Facil/public_html",
       liveLink: "https://curriculo-facil-three.vercel.app/index.html",
       participation: "Contribuí para o desenvolvimento de diversas páginas do site e atuei na implementação da responsividade, garantindo uma melhor experiência em diferentes dispositivos. Além disso, colaborei com a equipe no desenvolvimento da ferramenta de criação de currículos, auxiliando na definição de funcionalidades e na integração das interfaces.",
-      mainScreenshot: "/Portifolio/src/assets/projects/curriculo1.png",
+      mainScreenshot: "/Portifolio/assets/projects/curriculo1.png",
       allScreenshots: [
         { src: "/src/assets/projects/curriculo2.png", alt: "Screenshot do Curriculo Fácil - Página 1"},
         { src: "/src/assets/projects/curriculo3.png", alt: "Screenshot do Curriculo Fácil - Página 2"},
