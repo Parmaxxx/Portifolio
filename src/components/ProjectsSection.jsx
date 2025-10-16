@@ -46,7 +46,7 @@ const ProjectCard = ({ project, onViewDetails }) => {
           ) : (
               <div className="text-muted-foreground text-center">
                 <Code size={48} className="mx-auto mb-2 opacity-50" />
-                <p className="text-sm">[Screenshot do Projeto]</p>
+                <p className="text-sm">Em desenvolvimento]</p>
               </div>
           )}
           <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors" />
@@ -253,11 +253,11 @@ const ProjectsSection = () => {
       githubLink: "https://github.com/Equipe-BooleanTech/Adriana_Oliveira_Fotos_II",
       liveLink: null,
       participation: "Atuei como desenvolvedor backend, responsável por implementar toda a lógica por trás das funcionalidades, garantindo o correto funcionamento, desempenho e integração do sistema.",
-      mainScreenshot: "/src/assets/projects/adriana1.png",
+      mainScreenshot: adriana1,
       allScreenshots: [
-        { src: "/src/assets/projects/adriana2.png"},
-        { src: "/src/assets/projects/adriana3.png"},
-        { src: "/src/assets/projects/adriana4.png"},
+        { src: adriana2},
+        { src: adriana3},
+        { src: adriana4},
       ]
     },
     {
@@ -268,11 +268,11 @@ const ProjectsSection = () => {
       githubLink: "https://github.com/Equipe-BooleanTech/restaurantto_client",
       liveLink: null,
       participation: "Atuei como desenvolvedor backend, responsável por implementar toda a lógica por trás das funcionalidades, garantindo o correto funcionamento, desempenho e integração do sistema.",
-      mainScreenshot: "/src/assets/projects/restauranto1.jpg",
+      mainScreenshot: restauranto1,
       allScreenshots: [
-        { src: "/src/assets/projects/restauranto2.jpg"},
-        { src: "/src/assets/projects/restauranto3.jpg"},
-        { src: "/src/assets/projects/restauranto4.jpg"},
+        { src: restauranto2},
+        { src: restauranto3},
+        { src: restauranto4},
       ]
     },
     {
@@ -283,11 +283,11 @@ const ProjectsSection = () => {
       githubLink: "https://github.com/Equipe-BooleanTech/lembrai_client",
       liveLink: null,
       participation: "Atuei como desenvolvedor backend, responsável por implementar toda a lógica por trás das funcionalidades, garantindo o correto funcionamento, desempenho e integração do sistema.",
-      mainScreenshot: "/src/assets/projects/lembrai1.jpg",
+      mainScreenshot: lembrai1,
       allScreenshots: [
-        { src: "/src/assets/projects/lembrai2.jpg"},
-        { src: "/src/assets/projects/lembrai3.jpg"},
-        { src: "/src/assets/projects/lembrai4.jpg"}
+        { src: lembrai2},
+        { src: lembrai3},
+        { src: lembrai4}
       ]
     },
     {
