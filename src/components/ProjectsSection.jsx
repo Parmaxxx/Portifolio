@@ -2,6 +2,29 @@ import { useState } from 'react';
 import { ExternalLink, Github, Code, Database, Server, Eye } from 'lucide-react';
 import { Button } from '@/components/ui/button.jsx';
 
+import curriculo1 from '../assets/projects/curriculo1.png';
+import curriculo2 from '../assets/projects/curriculo2.png';
+import curriculo3 from '../assets/projects/curriculo3.png';
+
+import atelie1 from '../assets/projects/atelie1.png';
+import atelie2 from '../assets/projects/atelie2.png';
+import atelie3 from '../assets/projects/atelie3.png';
+
+import adriana1 from '../assets/projects/adriana1.png';
+import adriana2 from '../assets/projects/adriana2.png';
+import adriana3 from '../assets/projects/adriana3.png';
+import adriana4 from '../assets/projects/adriana4.png';
+
+import restauranto1 from '../assets/projects/restauranto1.jpg';
+import restauranto2 from '../assets/projects/restauranto2.jpg';
+import restauranto3 from '../assets/projects/restauranto3.jpg';
+import restauranto4 from '../assets/projects/restauranto4.jpg';
+
+import lembrai1 from '../assets/projects/lembrai1.jpg';
+import lembrai2 from '../assets/projects/lembrai2.jpg';
+import lembrai3 from '../assets/projects/lembrai3.jpg';
+import lembrai4 from '../assets/projects/lembrai4.jpg';
+
 const ProjectCard = ({ project, onViewDetails }) => {
   const getTechIcon = (tech) => {
     const techLower = tech.toLowerCase();
@@ -202,10 +225,10 @@ const ProjectsSection = () => {
       githubLink: "https://github.com/Parmaxxx/Curriculo-Facil/tree/main/Curriculo%20Facil/public_html",
       liveLink: "https://curriculo-facil-three.vercel.app/index.html",
       participation: "Contribuí para o desenvolvimento de diversas páginas do site e atuei na implementação da responsividade, garantindo uma melhor experiência em diferentes dispositivos. Além disso, colaborei com a equipe no desenvolvimento da ferramenta de criação de currículos, auxiliando na definição de funcionalidades e na integração das interfaces.",
-      mainScreenshot: "/Portifolio/assets/projects/curriculo1.png",
+      mainScreenshot: curriculo1,
       allScreenshots: [
-        { src: "/src/assets/projects/curriculo2.png", alt: "Screenshot do Curriculo Fácil - Página 1"},
-        { src: "/src/assets/projects/curriculo3.png", alt: "Screenshot do Curriculo Fácil - Página 2"},
+        { src: curriculo2},
+        { src: curriculo3},
       ]
     },
     {
@@ -216,10 +239,10 @@ const ProjectsSection = () => {
       githubLink: "https://github.com/Parmaxxx/Projeto_Interdisciplinar_II_FATEC",
       liveLink: "https://sistema-atelie-do-chocolate.vercel.app/",
       participation: "Atuei como desenvolvedor full stack, com foco no backend das páginas, colaborando junto à equipe no desenvolvimento das funcionalidades. Além disso, contribui como desenvolvedor front-end em algumas páginas, garantindo integração, usabilidade e responsividade da plataforma.",
-      mainScreenshot: "/src/assets/projects/atelie1.png",
+      mainScreenshot: atelie1,
       allScreenshots: [
-        { src: "/src/assets/projects/atelie2.png"},
-        { src: "/src/assets/projects/atelie3.png"}
+        { src: atelie2},
+        { src: atelie3}
       ]
     },
     {
